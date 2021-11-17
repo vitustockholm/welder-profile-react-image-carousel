@@ -5,6 +5,7 @@ export const StyledHeader = styled.header`
   align-items: flex-start;
   flex-direction: column;
   padding: 10px 35px;
+
 `;
 
 export const Logo = styled.div`

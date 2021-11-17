@@ -40,15 +40,15 @@
 
 .slider {
   position: relative;
-  height: 100vh;
+  height: 45rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image {
-  width: 1000px;
-  height: 600px;
+  width: 680px;
+  height: 700px;
   border-radius: 10px;
 }
 
