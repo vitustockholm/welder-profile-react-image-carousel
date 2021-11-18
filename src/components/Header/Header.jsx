@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <StyledHeader className='container'>
       <Nav open={open}>
-        <Logo>OnePage</Logo>
+        <Logo>MMA/MIG/TIG</Logo>
         <Toggle href='#!#'>
           <FaBars onClick={() => setOpen(!open)} />
         </Toggle>
@@ -35,13 +35,13 @@ const Header = () => {
           <li>
             <a href='#!#'>Portfolio</a>
           </li>
-          <li>
+          {/* <li>
             <a href='#!#'>Team</a>
           </li>
           <li>
             <a href='#!#'>Pricing</a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Dropdown>
               <a href='#!#'>
                 <span onClick={() => setDropDownOpen((prev) => !prev)}>
@@ -60,13 +60,13 @@ const Header = () => {
                 </ul>
               </DropdownContent>
             </Dropdown>
-          </li>
+          </li> */}
           <li>
             <a href='#!#'>Contact</a>
           </li>
-          <li>
+          {/* <li>
             <Button medium text='Get Started' />
-          </li>
+          </li> */}
         </ul>
       </Nav>
     </StyledHeader>
