@@ -29,12 +29,12 @@ const Header = () => {
           <li>
             <a href='#!#'>About</a>
           </li>
-          <li>
+          {/* <li>
             <a href='#!#'>Services</a>
           </li>
           <li>
             <a href='#!#'>Portfolio</a>
-          </li>
+          </li> */}
           {/* <li>
             <a href='#!#'>Team</a>
           </li>
